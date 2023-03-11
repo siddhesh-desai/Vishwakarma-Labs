@@ -1,0 +1,137 @@
+.logo{
+    display: block !important;;
+    margin: auto !important;;
+    
+} 
+body{
+    height: 100vh;
+    background-color: rgb(88, 85, 85);
+    
+} 
+.container{
+    
+    max-width:  800px;
+    border: 2px solid rgb(92, 92, 92);
+    margin: auto;
+    height: 50vh;
+    padding: 15px;
+    overflow-y:auto;
+    overflow-x: auto;
+    margin-bottom: 24px;
+    background-image: url('https://st3.depositphotos.com/2800301/17644/v/450/depositphotos_176441124-stock-illustration-kindergarten-nursery-preschool-school-education.jpg');
+    
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.message{
+    
+    width: auto;
+    max-width: 500px;
+    padding: 10px;
+    margin: 2px 2px;
+    border: 2px solid black;
+    border-radius: 25px;
+    
+
+}
+.left{
+  border-top-left-radius: 0px;
+    background-color: rgb(209, 203, 203);
+    text-decoration-color: rgb(0, 0, 0);
+    float: left;
+    clear: both;
+
+}
+.right{
+  border-top-right-radius: 0px;
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  text-decoration-color: rgb(255, 255, 255);
+    background-color: rgb(70, 255, 255);
+    float: right;
+    clear: both;
+}
+.center{
+  float: center;
+
+}
+#sendcontainer{
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 700px;
+  
+  width: 100%;
+
+}
+#messageInp{
+    bottom: 10px;
+    width: 85%;
+    max-width: 750px;
+    -webkit-text-fill-color: rgb(235, 227, 227);
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 15px;
+    height: 34px;
+    background-color: rgb(78, 77, 75);
+    
+}
+.btn{
+    cursor: pointer;
+    
+    max-width:  auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 45px;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
