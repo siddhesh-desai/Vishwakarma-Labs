@@ -7,25 +7,28 @@
 }
 
 body {
-  height: 100vh;
-  background-color: black;
+  /* height: 100vh; */
+  /* background-color: black; */
 
 }
 
-.container {
+.container1 {
+  height: 76vh;
 
-  max-width: 800px;
-  max-height: auto;
-  border: 2px solid rgb(92, 92, 92);
-  margin: auto;
-  height: 80vh;
   padding: 15px;
   overflow-y: auto;
   overflow-x: auto;
-  margin-bottom: 24px;
-  margin-bottom: 24px;
-  background-image: url('https://i.redd.it/l54x31ngv4261.png');
+  opacity: 70%;
+  background-image: url('https://qph.fs.quoracdn.net/main-qimg-8926de31f390158d70d7c77dee2f89c1-c');
+}
 
+.container2 {
+  height: 76vh;
+
+  padding: 15px;
+  overflow-y: auto;
+  overflow-x: auto;
+  opacity: 70%;
 }
 
 .button {
@@ -87,24 +90,26 @@ body {
 }
 
 #messageInp {
-  bottom: 10px;
   width: 85%;
-  max-width: 750px;
-  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-fill-color: black;
   border: 2px solid rgb(68, 68, 68);
-  border-radius: 15px;
-  height: 34px;
-  background-color: rgb(78, 77, 75);
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: aliceblue;
+  padding: auto;
+  padding-left: 1%;
 
 }
 
-.btn {
+.btn1 {
   cursor: pointer;
-  min-width: 40px;
-  max-width: auto;
-  border: 2px solid black;
-  border-radius: 15px;
-  height: 45px;
+  height: 40px;
+  width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* border: 2px solid black; */
+  border-radius: 5px;
   background-color: aqua;
 }
 

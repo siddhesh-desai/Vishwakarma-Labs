@@ -2,7 +2,8 @@ const socket = io('http://localhost:8000');
 
 const form = document.getElementById("sendcontainer");
 const messageInput = document.getElementById("messageInp");
-const messageContainer = document.querySelector(".container")
+const messageContainer = document.querySelector(".container1")
+const messageContainer2 = document.querySelector(".container2")
 
 
 const append = (message, position) => {
@@ -12,12 +13,16 @@ const append = (message, position) => {
   messageElement.classList.add(position);
   messageContainer.append(messageElement);
 }
-
-
+const append2 = (message, position) => {
+  const messageElement = document.createElement("div");
+  messageElement.innerText = message;
+  messageElement.classList.add('message')
+  messageElement.classList.add(position);
+  messageContainer2.append(messageElement);
+}
 
 const name = prompt("enter your name");
 socket.emit('new-user-joined', name);
-
 
 socket.on('chat-history', messages => {
   messages.forEach(data => {
@@ -36,16 +41,10 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-
-
-
-
-
-
-
 socket.on('user-joined', name => {
   append(`you joined`, 'right');
   append(`${name} joined the chat`, 'right');
+  append2(`${name} joined`, 'center');
 });
 
 socket.on('recieve', data => {
