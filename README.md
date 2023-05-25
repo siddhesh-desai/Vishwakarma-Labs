@@ -112,7 +112,7 @@ Follow the below steps to set up the project locally:
 - [ ] File Sharing
 - [ ] Timer Based Attendance
 - [ ] Auto Updation of Attendance in CSV File
-- [] Updates to systems from Server
+- [ ] Updates to systems from Server
 
 See the [open issues](https://github.com/siddhesh-desai/Vishwakarma-Labs/issues) for a full list of proposed features (and known issues).
 
@@ -156,6 +156,7 @@ Project Link: [https://github.com/siddhesh-desai/Vishwakarma-Labs](https://githu
 Thanks go to these wonderful people:
 
 - [Siddhesh Desai](https://github.com/siddhesh-desai/)
+- [Atharva Patil]()
 
 [contributors-shield]: https://img.shields.io/github/contributors/siddhesh-desai/Vishwakarma-Labs.svg?style=for-the-badge
 [contributors-url]: https://github.com/siddhesh-desai/Vishwakarma-Labs/graphs/contributors
@@ -169,9 +170,9 @@ Thanks go to these wonderful people:
 [license-url]: https://github.com/siddhesh-desai/Vishwakarma-Labs/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/thesiddheshdesai
-[html]: https://img.shields.io/badge/HTML-20232A?style=for-the-badge&logo=html&logoColor=61DAFB
+[html]: https://img.shields.io/badge/HTML-20232A?style=for-the-badge&logo=html5&logoColor=61DAFB
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[css]: https://img.shields.io/badge/Css-000000?style=for-the-badge&logo=css&logoColor=white
+[css]: https://img.shields.io/badge/Css-000000?style=for-the-badge&logo=css3&logoColor=white
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [js]: https://img.shields.io/badge/Javscript-0769AD?style=for-the-badge&logo=javascript&logoColor=white
 [js-url]: https://developer.mozilla.org/en-US/docs/Web/javascript
